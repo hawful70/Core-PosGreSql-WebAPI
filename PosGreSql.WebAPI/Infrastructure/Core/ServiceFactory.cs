@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace TeduShop.Web.Infrastructure.Core
+namespace PosGreSql.WebAPI.Infrastructure.Core
 {
     public static class ServiceFactory
     {
