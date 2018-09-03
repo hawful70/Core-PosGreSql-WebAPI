@@ -1,0 +1,5 @@
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.UnitTest\bin\Debug\PostGreSql.UnitTest.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.UnitTest\bin\Debug\PostGreSql.UnitTest.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.UnitTest\obj\Debug\PostGreSql.UnitTest.csprojResolveAssemblyReference.cache
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.UnitTest\obj\Debug\PostGreSql.UnitTest.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.UnitTest\obj\Debug\PostGreSql.UnitTest.pdb

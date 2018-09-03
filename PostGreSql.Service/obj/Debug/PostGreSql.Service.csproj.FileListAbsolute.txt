@@ -1,0 +1,11 @@
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Service.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Service.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\obj\Debug\PostGreSql.Service.csprojResolveAssemblyReference.cache
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\obj\Debug\PostGreSql.Service.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\obj\Debug\PostGreSql.Service.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Common.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Data.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Model.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Common.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Data.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Service\bin\Debug\PostGreSql.Model.pdb
