@@ -107,3 +107,13 @@ D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bi
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\System.Threading.Tasks.Extensions.xml
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\System.ValueTuple.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.Integration.Mvc.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.Integration.WebApi.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\AutoMapper.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.Integration.Mvc.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.Integration.WebApi.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.Integration.WebApi.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\AutoMapper.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\AutoMapper.xml

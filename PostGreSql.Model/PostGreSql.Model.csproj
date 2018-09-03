@@ -44,6 +44,7 @@
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
     <Compile Include="Category.cs" />
+    <Compile Include="Error.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="PostTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

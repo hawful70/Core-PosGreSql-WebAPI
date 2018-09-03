@@ -15,5 +15,7 @@ namespace PostGreSql.Data
         public DbSet<PostCategory> PostCategories { set; get; }
         public DbSet<PostTag> PostTags { set; get; }
         public DbSet<Tag> Tags { set; get; }
+
+        public DbSet<Error> Errors { set; get; }
     }
 }

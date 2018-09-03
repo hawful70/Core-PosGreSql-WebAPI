@@ -85,9 +85,14 @@
     <Compile Include="Migrations\201809031521491_init data.Designer.cs">
       <DependentUpon>201809031521491_init data.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809031714344_Add_error_data.cs" />
+    <Compile Include="Migrations\201809031714344_Add_error_data.Designer.cs">
+      <DependentUpon>201809031714344_Add_error_data.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PosGreSqlDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\PostCategoryRepository.cs" />
     <Compile Include="Repositories\PostRepository.cs" />
     <Compile Include="Repositories\TagRepository.cs" />
@@ -99,6 +104,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809031521491_init data.resx">
       <DependentUpon>201809031521491_init data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809031714344_Add_error_data.resx">
+      <DependentUpon>201809031714344_Add_error_data.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
