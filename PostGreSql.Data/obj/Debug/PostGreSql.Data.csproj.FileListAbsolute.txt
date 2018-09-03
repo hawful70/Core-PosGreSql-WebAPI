@@ -10,3 +10,16 @@ D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\EntityFramework.SqlServer.dll
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\EntityFramework.xml
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\EntityFramework6.Npgsql.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Npgsql.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\System.ValueTuple.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\EntityFramework6.Npgsql.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Npgsql.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Npgsql.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\System.ValueTuple.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\obj\Debug\PostGreSql.Data.Migrations.initdata.resources
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\obj\Debug\PostGreSql.Data.csproj.GenerateResource.Cache
