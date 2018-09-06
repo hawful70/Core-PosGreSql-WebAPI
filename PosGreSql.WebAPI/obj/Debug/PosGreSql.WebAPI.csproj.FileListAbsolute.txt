@@ -117,3 +117,8 @@ D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bi
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Autofac.Integration.WebApi.xml
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\AutoMapper.pdb
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\AutoMapper.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Microsoft.Owin.Cors.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\System.Web.Cors.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\System.Web.Http.Cors.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\Microsoft.Owin.Cors.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PosGreSql.WebAPI\bin\System.Web.Http.Cors.xml
