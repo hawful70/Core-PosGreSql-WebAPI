@@ -25,6 +25,7 @@ namespace PosGreSql.WebAPI
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            ConfigAutofac(app);
         }
 
         private void ConfigAutofac(IAppBuilder app)
