@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using PosGreSql.WebAPI.Providers;
 using PosGreSql.WebAPI.Models;
+using Microsoft.Owin.Cors;
 
 namespace PosGreSql.WebAPI
 {
@@ -30,6 +31,9 @@ namespace PosGreSql.WebAPI
             // and to use a cookie to temporarily store information about a user logging in with a third party login provider
             app.UseCookieAuthentication(new CookieAuthenticationOptions());
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
+
+            //Allow Cross origin for API
+            app.UseCors(CorsOptions.AllowAll);
 
             // Configure the application for OAuth based flow
             PublicClientId = "self";

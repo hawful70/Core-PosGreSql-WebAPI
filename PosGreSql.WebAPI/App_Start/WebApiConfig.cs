@@ -17,6 +17,8 @@ namespace PosGreSql.WebAPI
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
+             // Web API configuration and services
+            config.EnableCors();
             // Web API routes
             config.MapHttpAttributeRoutes();
 
