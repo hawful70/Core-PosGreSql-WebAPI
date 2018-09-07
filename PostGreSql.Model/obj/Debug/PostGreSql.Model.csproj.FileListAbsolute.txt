@@ -3,3 +3,12 @@ D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bi
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\obj\Debug\PostGreSql.Model.csprojResolveAssemblyReference.cache
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\obj\Debug\PostGreSql.Model.dll
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\obj\Debug\PostGreSql.Model.pdb
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\PostGreSql.Model.dll.config
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\EntityFramework.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\EntityFramework.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
