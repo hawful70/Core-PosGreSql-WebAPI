@@ -7,9 +7,8 @@ ASP.NET Identity 2.0 provider that use Entity Framework for PostgreSQL.
 ### 1. Update the project to use PostgreSQL.AspNet.Idnetity.EntityFramework
 Once you have correctly setup the PostgreSQL EntityFramework, using PostgreSQL.AspNet.Identity.Framework is straight forward.
 
-1. Add the PostgreSQL.AspNet.Identity.EntityFramework project as a reference
-2. Remove the Microsoft.AspNet.Identity.EntityFramework nuget package and replace the "using Microsoft.AspNet.Identity.EntityFramework" statements with "using PostgreSQL.AspNet.Identity.EntityFramework" (it's in IdentityModel.cs and IdentityConfig.cs in the default mvc5 project template)
-   
+1. Add icrosoft.AspNet.Identity.EntityFramework nuget package.
+
 ### 2. Use without Migration
 The default database initalizer is CreateDatabaseIfNotExists. It will automatically create the database if one does not exist and it will also enable database migration. To turnoff off migration
 
