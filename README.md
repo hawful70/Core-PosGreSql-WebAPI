@@ -47,3 +47,9 @@
             <add name="Npgsql Data Provider" invariant="Npgsql" support="FF" description=".Net Framework Data Provider for Postgresql" type="Npgsql.NpgsqlFactory, Npgsql" />
         </DbProviderFactories>
     </system.data>
+    
+## 2. Code First For PostgreSQL
+	The default database initalizer is CreateDatabaseIfNotExists. It will automatically create the database if one does not exist 		and it will also enable database migration. To turnoff off migration
+
+	Run the PostgreSQLIdentity.sql script to create the identity tables in your postgreSQL database. We have to do this since the 		identity tables will not be created automatically.
+	Set the database initalizer to NullDatabaseInitializer to turn off migration.
