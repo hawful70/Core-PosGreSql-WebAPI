@@ -265,6 +265,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\AppUserController.cs" />
     <Compile Include="API\PostCategoryController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -317,6 +318,8 @@
     <Compile Include="Models\Post\PostTagViewModel.cs" />
     <Compile Include="Models\Post\PostViewModel.cs" />
     <Compile Include="Models\Post\TagViewModel.cs" />
+    <Compile Include="Models\User\ApplicationRoleViewModel.cs" />
+    <Compile Include="Models\User\AppUserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\AuthorizationServerProvider.cs" />
     <Compile Include="Providers\QueryStringOAuthBearerProvider.cs" />

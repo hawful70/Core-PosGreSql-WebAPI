@@ -1,7 +1,9 @@
 ﻿using PosGreSql.WebAPI.Models.Post;
+using PosGreSql.WebAPI.Models.User;
 using PostGreSql.Model;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 
@@ -48,6 +50,36 @@ namespace PosGreSql.WebAPI.Infrastructure.Extensions
             post.MetaKeyword = postVm.MetaKeyword;
             post.MetaDescription = postVm.MetaDescription;
             post.Status = postVm.Status;
+        }
+
+        public static void UpdateApplicationRole(this AppRole appRole, ApplicationRoleViewModel appRoleViewModel, string action = "add")
+        {
+            if (action == "update")
+                appRole.Id = appRoleViewModel.Id;
+            else
+                appRole.Id = Guid.NewGuid().ToString();
+            appRole.Name = appRoleViewModel.Name;
+            appRole.Description = appRoleViewModel.Description;
+        }
+
+        public static void UpdateUser(this AppUser appUser, AppUserViewModel appUserViewModel, string action = "add")
+        {
+            appUser.Id = appUserViewModel.Id;
+            appUser.FullName = appUserViewModel.FullName;
+            if (!string.IsNullOrEmpty(appUserViewModel.BirthDay))
+            {
+                DateTime dateTime = DateTime.ParseExact(appUserViewModel.BirthDay, "dd/MM/yyyy", new CultureInfo("vi-VN"));
+                appUser.BirthDay = dateTime;
+            }
+
+            appUser.Email = appUserViewModel.Email;
+            appUser.Address = appUserViewModel.Address;
+            appUser.UserName = appUserViewModel.UserName;
+            appUser.PhoneNumber = appUserViewModel.PhoneNumber;
+            appUser.Gender = appUserViewModel.Gender == "True" ? true : false;
+            appUser.Status = appUserViewModel.Status;
+            appUser.Address = appUserViewModel.Address;
+            appUser.Avatar = appUserViewModel.Avatar;
         }
     }
 }

@@ -22,21 +22,21 @@ namespace PosGreSql.WebAPI.Infrastructure.Core
 
         //Code removed from brevity
 
-        //protected ApplicationRoleManager AppRoleManager
-        //{
-        //    get
-        //    {
-        //        return Request.GetOwinContext().GetUserManager<ApplicationRoleManager>();
-        //    }
-        //}
+        protected ApplicationRoleManager AppRoleManager
+        {
+            get
+            {
+                return Request.GetOwinContext().GetUserManager<ApplicationRoleManager>();
+            }
+        }
 
-        //protected ApplicationUserManager AppUserManager
-        //{
-        //    get
-        //    {
-        //        return Request.GetOwinContext().GetUserManager<ApplicationUserManager>();
-        //    }
-        //}
+        protected ApplicationUserManager AppUserManager
+        {
+            get
+            {
+                return Request.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            }
+        }
 
         protected HttpResponseMessage CreateHttpResponse(HttpRequestMessage requestMessage, Func<HttpResponseMessage> function)
         {
