@@ -20,10 +20,10 @@
 
 ### Web.config
 
-		<connectionStrings>
+<connectionStrings>
         <add name="PosGreSqlDbContext"
        connectionString="Server=localhost;Port=5432;Database=DBPosGreSql;User Id=postgres;Password=dev123;;SearchPath=public;" providerName="Npgsql" />
-    </connectionStrings>
+</connectionStrings>
 
 &
 
