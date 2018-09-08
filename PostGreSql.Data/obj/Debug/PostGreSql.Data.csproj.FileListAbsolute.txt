@@ -24,3 +24,7 @@ D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\obj\Debug\PostGreSql.Data.Migrations.initdata.resources
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\obj\Debug\PostGreSql.Data.csproj.GenerateResource.Cache
 D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\obj\Debug\PostGreSql.Data.Migrations.Add_error_data.resources
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Develop\DotNet\CoreFramworkPostGreSql\CorePosGreSqlWebAPI\PostGreSql.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

@@ -1,5 +1,7 @@
 ﻿namespace PostGreSql.Data.Migrations
 {
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
     using Model;
     using System;
     using System.Collections.Generic;
@@ -22,6 +24,7 @@
             //  to avoid creating duplicate seed data.
 
             CreatePostCategorySample(context);
+            CreateUser(context);
         }
 
         private void CreatePostCategorySample(PosGreSqlDbContext context)
@@ -37,6 +40,41 @@
                 };
                 context.PostCategories.AddRange(listPostCategory);
                 context.SaveChanges();
+            }
+        }
+
+        private void CreateUser(PosGreSqlDbContext context)
+        {
+            var manager = new UserManager<AppUser>(new UserStore<AppUser>(new PosGreSqlDbContext()));
+            if (manager.Users.Count() == 0)
+            {
+                var roleManager = new RoleManager<AppRole>(new RoleStore<AppRole>(new PosGreSqlDbContext()));
+
+                var user = new AppUser()
+                {
+                    UserName = "admin",
+                    Email = "admin@tedu.com.vn",
+                    EmailConfirmed = true,
+                    BirthDay = DateTime.Now,
+                    FullName = "Le The hau",
+                    Avatar = "/assets/images/img.jpg",
+                    Gender = true,
+                    Status = true
+                };
+                if (manager.Users.Count(x => x.UserName == "admin") == 0)
+                {
+                    manager.Create(user, "123654$");
+
+                    if (!roleManager.Roles.Any())
+                    {
+                        roleManager.Create(new AppRole { Name = "Admin", Description = "Quản trị viên" });
+                        roleManager.Create(new AppRole { Name = "Member", Description = "Người dùng" });
+                    }
+
+                    var adminUser = manager.FindByName("admin");
+
+                    manager.AddToRoles(adminUser.Id, new string[] { "Admin", "Member" });
+                }
             }
         }
     }
