@@ -265,6 +265,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\AppRoleController.cs" />
     <Compile Include="API\AppUserController.cs" />
     <Compile Include="API\PostCategoryController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />

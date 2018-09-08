@@ -13,6 +13,7 @@ using PosGreSql.WebAPI.Infrastructure.Extensions;
 
 namespace PosGreSql.WebAPI.API
 {
+    [Authorize]
     [RoutePrefix("api/postcategory")]
     public class PostCategoryController : ApiControllerBase
     {

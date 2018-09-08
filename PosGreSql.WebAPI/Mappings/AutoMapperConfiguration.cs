@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using PosGreSql.WebAPI.Models.Post;
+using PosGreSql.WebAPI.Models.User;
 using PostGreSql.Model;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,9 @@ namespace PosGreSql.WebAPI.Mappings
                 cfg.CreateMap<Post, PostViewModel>();
                 cfg.CreateMap<PostCategory, PostCategoryViewModel>();
                 cfg.CreateMap<Tag, TagViewModel>();
+
+                cfg.CreateMap<AppRole, ApplicationRoleViewModel>();
+                cfg.CreateMap<AppUser, AppUserViewModel>();
             });
         }
     }
