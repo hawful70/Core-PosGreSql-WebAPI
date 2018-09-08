@@ -22,7 +22,7 @@ Database.SetInitializer<ApplicationDbContext>(new NullDatabaseInitializer<Applic
 ```
 ## References
 * This is a port of the [ASPNET Identity for SQL Server](https://aspnetidentity.codeplex.com/). 
-* This project got a jump start from [AspNet.Identity.PostgreSQL](https://github.com/danellos/AspNet.Identity.PostgreSQL)
+* This project got a jump start from [AspNet.Identity.PostgreSQL](https://github.com/lethehau90/Core-PosGreSql-WebAPI/tree/Indentity)
 
 ## LICENSE
 [MIT](/LICENSE)
