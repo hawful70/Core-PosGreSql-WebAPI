@@ -21,8 +21,9 @@
 ### Web.config
 
 	<connectionStrings>
-        <add name="SampleDbContext" connectionString="Server=localhost;Port=5432;Database=SampleDB;User Id=postgres;Password=123456;" providerName="Npgsql" />
-    </connectionStrings>
+  <add name="PosGreSqlDbContext"
+       connectionString="Server=localhost;Port=5432;Database=DBPosGreSql;User Id=postgres;Password=dev123;;SearchPath=public;" providerName="Npgsql" />
+</connectionStrings>
 
 &
 
