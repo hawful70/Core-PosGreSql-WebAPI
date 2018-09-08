@@ -48,7 +48,7 @@
         </DbProviderFactories>
     </system.data>
     
-## 2. Code First For PostgreSQL
+## 2. Use without Migration
 	
 	The default database initalizer is CreateDatabaseIfNotExists. 
 	It will automatically create the database if one does not exist 		
